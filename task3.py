@@ -19,3 +19,11 @@ Enter number:4
 That is an even integer
 
 """
+
+while True:
+    num= int(input("Enter an integer but it has to be specific or I will ask you again:"))
+    if num%2 ==0:
+        print ("You got it! The number had to be an even integer")
+        break
+    else: 
+        print("Wrong try again.")

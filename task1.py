@@ -20,3 +20,7 @@ Example:
 10
 ...
 """
+currentvalue=0
+while currentvalue< 20:
+    currentvalue=currentvalue + 2
+    print (currentvalue)

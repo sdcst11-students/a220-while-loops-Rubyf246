@@ -29,3 +29,15 @@ Access granted
 
 
 """
+username="admin"
+password = "12345"
+
+user= input("Enter username:").strip()
+pwd = input ("Enter password:").strip()
+
+while True:
+    if user==username and pwd==password:
+        print("Access granted")
+    else: 
+        print ("Access denied")
+    break 
